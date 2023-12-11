@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+        <img width=100% src="images/Scream.jpg" alt="">
+        <h1>Benny</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ul>
+        </nav>
+        <button><a href="tel:+2347055034203">Contact Me</a></button>
+        <button id="menuButton" onclick="openMenu()">
+          <i class="bx bx-menu"></i> 
+        </button>
+    </header>
+    <div class="main" id="main">
+        <div class="left">
+            <h3>Hey, I am Benny</h3>
+            <h4>I create <span>websites</span> and motion graphics</h4>
+        <p>
+            Welcome to my portfolio! I am a FrontEnd Developer known for my ability to adapt, improvise and create quickly. My journey here was rough but I pulled through after months of setbacks and annoyances. Join me as I showcase my skills(Not a lot at the moment) in basic <b>HTML, CSS</b> and <b>JS</b> can make a difference in your next project.
+        </p>
+        <button>Get in touch</button>
+        </div>
+<div class="right">
+    <img src="images/VideoCapture_20231112-194517.jpg" alt="">
+</div>
+   </div>
+
+<div class="skills" id="skills">
+    <h3>My Skills</h3>
+    <h4>My Expertise</h4>
+    <div class="skill-items">
+        <div class="item">
+            <div class="icon"><i class="bx bx-directions"></i></div>
+            <h3>Strategy & Direction</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit eaque eos eligendi similique facere doloremque eius provident quasi autem, labore perferendis tenetur repudiandae explicabo unde veritatis ullam ea laborum in!</p>
+        </div>
+        <div class="item">
+            <div class="icon"><i class="bx bx-film"></i></div>
+            <h3>Videos & Ads</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit eaque eos eligendi similique facere doloremque eius provident quasi autem, labore perferendis tenetur repudiandae explicabo unde veritatis ullam ea laborum in!</p>
+        </div>
+        <div class="item">
+            <div class="icon"><i class="bx bx-code-alt"></i></div>
+            <h3>Frontend Development</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit eaque eos eligendi similique facere doloremque eius provident quasi autem, labore perferendis tenetur repudiandae explicabo unde veritatis ullam ea laborum in!</p>
+        </div>
+    </div>
+</div>
+
+<div class="about" id="about">
+    <div class="left">
+        <img src="images/VideoCapture_20231112-194517.jpg">
+    </div>
+    <div class="right">
+        <h2>About</h2>
+        <h4>About Me</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non est numquam magni autem ullam placeat corporis quaerat culpa quidem dolorem accusantium temporibus soluta, dolores in, labore sed laborum voluptates sunt.</p>    
+        <p>I know this isn't anything particularly exicting, wild or ground breaking, heck I didn't use JS at all just cause I am tired, it's 2:27am and have little to no knowledge about it. I'll come back to it sometime soon and do due justice to it. Also wondering if you'd actually notice this. The font size here also looks a little too small but meh.</p>
+    </div>
+</div>
+
+<div class="portfolio" id="portfolio">
+    <div class="header">
+        <div class="info">
+            <h2>Recent Projects</h2>
+            <h4>My Portfolio</h4>
+        </div>
+        <button><a href="https://x.com/iambenn_y?t=txXOboloouozWpDzLUJ1IA&s=09"><i class="bx bxl-twitter"></i>Visit My Twitter Page</a></button>
+    </div>
+    
+    <div class="portfo-items">
+        <div class="item">
+            <img src="images/Screen-Shot-2022-05-19-at-2.44.08-PM.png">
+            <div class="info">
+                <h3>Simple Portfolio Page</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae porro pariatur id laborum, beatae voluptas debitis alias, sapiente totam eveniet dicta commodi atque quisquam. Tempore qui atque assumenda nesciunt sint?</p>
+                <a href="https://x.com/iambenn_y?t=txXOboloouozWpDzLUJ1IA&s=09">View on Twitter<i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/codm.jpg">
+            <div class="info">
+                <h3>CODM Beast</h3>
+                <p>Sneaking this on here because I am absolutely cracked. I don't have that much experience with anything really but I don't want to leave it blank. Hopefully it doesn't piss that one  person off. If you actually noticed this then damnnnn girl.</p>
+                <a href="https://x.com/iambenn_y?t=txXOboloouozWpDzLUJ1IA&s=09">View IGN in Bio<i class="bx bx-joystick"></i></a>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/No experience-6grqg.webp">
+            <div class="info">
+                <h3>No Experience</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae porro pariatur id laborum, beatae voluptas debitis alias, sapiente totam eveniet dicta commodi atque quisquam. Tempore qui atque assumenda nesciunt sint?</p>
+                <a href="#">No Experience<i class="bx bxs-no-entry"></i></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="feedback" id="feedback">
+    <h2>Clients Reviews</h2>
+    <h4>Customers Feedback</h4>
+    <div class="customers">
+        <div class="item">
+            <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bx-star"></i>
+                <i class="bx bx-star"></i>
+            </div>
+            <img src="images/1.jpg">
+            <div class="user">
+                <img src="images/User.jpg">
+                <div class="info">
+                    <h2>Fayemi Charity</h2>
+                    <p>All Soles</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star-half"></i>
+                <i class="bx bx-star"></i>
+            </div>
+            <img src="images/2.jpg">
+            <div class="user">
+                <img src="images/User.jpg">
+                <div class="info">
+                    <h2>CherryKoko</h2>
+                    <p>Konnect</p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+            </div>
+            <img src="images/3.jpg">
+            <div class="user">
+                <img src="images/User.jpg">
+                <div class="info">
+                    <h2>Number 1 Customer</h2>
+                    <p>Big Bad Bear</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="top">
+        <div class="logo">
+            <img src="images/Scream.jpg">
+            <a href="https://www.snapchat.com/add/benn.yyy?share_id=aDAtp7v_diA&locale=en-US"><h2>Benny<i class="bx bxl-snapchat"></i></h2></a>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Updates</a></li>
+        </ul>
+        <div class="social-links">
+            <a href="https://wa.me/+2347055034203/"><i class="bx bxl-whatsapp"></i></a>
+            <a href="https://instagram.com/iambenn.y?igshid=MzNINGNkZWQ4Mg=="><i class="bx bxl-instagram"></i></a>
+            <a href="https://x.com/iambenn_y?t=txXOboloouozWpDzLUJ1IA&s=09"><i class="bx bxl-twitter"></i></a>
+        </div>
+    </div>
+    <div class="separator"></div>
+    <div class="bottom">
+        <p>Made With ❤ By Benny</p>
+        <div class="links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookies Settings</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
